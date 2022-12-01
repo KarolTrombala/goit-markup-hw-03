@@ -1,4 +1,4 @@
-Linki:
+Linki: https://karoltrombala.github.io/goit-markup-hw-03/
 
 Utwórz repozytorium goit-markup-hw-03.
 
