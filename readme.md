@@ -1,6 +1,5 @@
 Link: https://karoltrombala.github.io/goit-markup-hw-03/
 
-
 Utwórz repozytorium goit-markup-hw-03.
 
 Sklonuj utworzone repozytorium i skopiuj do niego pliki poprzedniej pracy.
