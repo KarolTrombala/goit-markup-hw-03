@@ -8,6 +8,7 @@
   --background-color: #2f303a;
   --box-shadow-color: rgba(0, 0, 0, 0.15);
   --team-color: #f5f4fa;
+  --header-line: #ECECEC;
 }
 
 body {
@@ -16,6 +17,14 @@ body {
 }
 
 /* Nagłówek makiety */
+
+.container {
+  width: 1200px;
+}
+.header-line {
+background-color: var(--white-color);
+border-bottom:1px solid var(--header-line) ;
+}
 
 .header-logo,
 .logo-web {
