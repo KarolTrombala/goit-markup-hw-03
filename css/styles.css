@@ -23,7 +23,7 @@ body {
 }
 .header-line {
 background-color: var(--white-color);
-border-bottom:1px solid var(--header-line) ;
+border-bottom: 1px solid var(--header-line);
 }
 
 .header-logo,
