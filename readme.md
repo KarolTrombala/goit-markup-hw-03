@@ -1,3 +1,5 @@
+Linki:
+
 Utwórz repozytorium goit-markup-hw-03.
 
 Sklonuj utworzone repozytorium i skopiuj do niego pliki poprzedniej pracy.
@@ -28,7 +30,7 @@ Projekt
 
 Stylizacja
 
-«B1» Dozwolone jest globalne resetowanie stylów selektora tagu dla elementów <h1>...< h6 >, < p > i < ul >.
+«B1» Dozwolone jest globalne resetowanie stylów selektora tagu dla elementów < h1 >...< h6 >, < p > i < ul >.
 
 «B2» Elementy nie mają marginesów zewnętrznych (właściwość margin), które „przebijają” element nadrzędny (rodzicielski).
 
