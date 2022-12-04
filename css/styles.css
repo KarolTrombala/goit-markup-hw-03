@@ -20,6 +20,7 @@ body {
 
 .container {
   width: 1200px;
+  margin: 0 auto;
 }
 .header-line {
 background-color: var(--white-color);
