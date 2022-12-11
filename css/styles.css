@@ -21,10 +21,16 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
-.header-line {
+
+.nav-box {
 background-color: var(--white-color);
 border-bottom: 1px solid var(--header-line);
+
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .header-logo,
@@ -62,8 +68,13 @@ border-bottom: 1px solid var(--header-line);
 
 /* Menu makiety */
 
-.list {
+.nav-list {
   list-style-type: none;
+  display: flex;
+  padding: 0;
+  padding-left: 93px;
+
+
 }
 
 .nav-list-item-link {
@@ -73,6 +84,7 @@ border-bottom: 1px solid var(--header-line);
   text-decoration: none;
   letter-spacing: 0.02em;
   color: var(--main-color);
+ 
 }
 
 .nav-list-item-link:hover,
@@ -95,6 +107,8 @@ border-bottom: 1px solid var(--header-line);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+
+  margin:0 auto;
 }
 
 .hero-button {
