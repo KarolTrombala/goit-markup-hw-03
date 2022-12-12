@@ -162,6 +162,14 @@ margin: 0 auto;
 
 /* Nasze atuty*/
 
+.list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+ margin: 0;
+ padding: 0;
+}
+
 .trumps-title {
   font-weight: 700;
   font-size: 14px;
@@ -169,7 +177,13 @@ margin: 0 auto;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
+
+  width: 270px;
+  height: 16px;
+  margin: 0;
+  margin-bottom: 10px;
 }
+
 
 .trumps-item {
   font-weight: 400;
@@ -177,6 +191,10 @@ margin: 0 auto;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--support-color);
+
+  width: 270px;
+  height: 75px;
+  margin: 0;
 }
 
 /* Czym sie zajmujemy  i nagłówek z Nasz zespół */
