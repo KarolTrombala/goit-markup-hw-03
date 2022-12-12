@@ -165,7 +165,7 @@ margin: 0 auto;
 
 /* Nasze atuty*/
 
-.trumps-list {
+.trumps-list .works-list {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
