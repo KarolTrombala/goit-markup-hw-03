@@ -26,7 +26,6 @@ body {
 .header-line{
 background-color: var(--white-color);
 border-bottom: 1px solid var(--header-line);
-
 }
 .nav-box {
 display: flex;
@@ -41,7 +40,9 @@ align-items: center;
 }
 
 .header-logo{
-  width: 145px;;
+  width: 145px;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .header-logo,
@@ -72,11 +73,14 @@ align-items: center;
 .header-address{
   width: 135px;
   margin-left: 371px;
-
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .header-phone{
-  width: 110px;;
+  width: 110px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .header-address:hover,
 .header-phone:hover,
@@ -94,7 +98,9 @@ align-items: center;
   display: flex;
   padding: 0;
   padding-left: 93px;
-  gap: 46px
+  gap: 46px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .nav-list-item-link {
@@ -117,8 +123,7 @@ align-items: center;
 
 .hero {
   background-color: var(--background-color);
-  width: 1600px;
-  height: 800px;
+
 }
 
 .hero-title {
@@ -131,8 +136,7 @@ align-items: center;
   color: var(--white-color);
 
   width: 696px;
-  height: 120px;
-  padding: 200px 452px 280px 452px;
+  padding: 200px 452px 280px;
   margin: 0;
 }
 
@@ -146,6 +150,12 @@ align-items: center;
   letter-spacing: 0.06em;
   color: var(--white-color);
   cursor: pointer;
+
+  border-style: none; 
+  padding: 10px 41px;
+  width: 200px;
+  margin: 350px 700px 200px;
+
 }
 
 /* Nasze atuty*/
