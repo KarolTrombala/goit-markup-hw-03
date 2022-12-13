@@ -91,7 +91,6 @@ body {
 .header-address:focus,
 .header-phone:focus {
   color: var(--higlight-color);
-  text-decoration: underline;
 }
 
 /* Menu makiety */
@@ -119,7 +118,6 @@ body {
 .nav-list-item-link:hover,
 .nav-list-item-link:focus {
   color: var(--higlight-color);
-  text-decoration: underline;
 }
 
 /* Header makiety */
@@ -412,5 +410,4 @@ body {
 .footer-address-link-u:hover,
 .footer-address-link-u:focus {
   color: var(--higlight-color);
-  text-decoration: underline;
 }
