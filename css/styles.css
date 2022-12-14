@@ -12,6 +12,11 @@
   --projects-color: #eeeeee;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Roboto", sans-serfif;
   color: var(--main-color);
@@ -79,9 +84,8 @@ body {
 .nav-list {
   list-style: none;
   display: flex;
-  padding: 0;
-  margin: 0;
-  margin-left: 70px;
+  margin-left: 93px;
+  gap: 46px;
 }
 
 .nav-list-item-link {
@@ -91,8 +95,6 @@ body {
   text-decoration: none;
   letter-spacing: 0.02em;
   color: var(--main-color);
-
-  margin: 0 23px;
 }
 
 .nav-list-item-link:hover,
@@ -112,6 +114,7 @@ body {
 
 .hero {
   background-color: var(--background-color);
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -123,7 +126,7 @@ body {
   text-transform: uppercase;
   color: var(--white-color);
 
-  margin: 106px 252px 30px;
+  margin: 0 252px;
 }
 
 .hero-button {
@@ -136,34 +139,28 @@ body {
   letter-spacing: 0.06em;
   color: var(--white-color);
   cursor: pointer;
-
+  
   border-style: none;
   padding: 10px 41px;
-  width: 200px;
-  height: 50px;
-  margin: 30px 500px 200px;
+  margin-top: 30px;
 }
 
-/* Nasze atuty */
+/* Nasze atuty, Czym się zajmujemy i Nasz zespół  */
 
 .list {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
+  font-size: 0;
+  gap: 30px;
 }
+
+/* Nasze atuty */
 
 .trumps {
   padding-bottom: 0;
 }
 
-.trumps-box {
-  margin-right: 30px;
-}
-.trumps-box:last-child {
-  margin:0;
-}
 .trumps-title {
   font-weight: 700;
   font-size: 14px;
@@ -172,7 +169,6 @@ body {
   text-transform: uppercase;
   color: var(--main-color);
 
-  margin: 0;
   margin-bottom: 10px;
 }
 
@@ -182,20 +178,9 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--support-color);
-
-  margin: 0;
 }
 
 /* Czym się zajmujemy  i nagłówek z Nasz zespół */
-
-.works-list {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-}
 
 .works-title,
 .team-title {
@@ -205,24 +190,11 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
-}
-.team-title {
-  margin: 0;
+
   margin-bottom: 50px;
 }
 
 /* Nasz zespół */
-
-
-.team-list {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-
-}
 
 .team {
   background: var(--team-color);
@@ -231,7 +203,6 @@ body {
 .team-card {
   background: var(--white-color);
 
-  margin: 0;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -260,7 +231,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--support-color);
 
-  margin: 0;
   padding-bottom: 30px;
 }
 
@@ -270,8 +240,7 @@ body {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  padding: 0;
-  margin: 0 303px 50px 295px;
+  margin-bottom: 50px;
 }
 
 .filter-button {
@@ -305,8 +274,6 @@ body {
 
 .projects {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -317,7 +284,6 @@ body {
 .project-card {
   background: var(--white-color);
   border: 1px solid var(--projects-color);
-  margin: 0;
 }
 
 .project-card-title {
@@ -362,7 +328,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--white-color);
 
-  padding: 60px 1025px 0 0;
+  padding-top: 60px;
 }
 
 .footer-address {
@@ -375,11 +341,9 @@ body {
 
   display: flex;
   flex-direction: column;
-  padding: 20px 924px 60px 0;
-}
-
-.footer-address p {
-  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  gap: 9px;
 }
 
 .footer-address-link,
@@ -388,12 +352,9 @@ body {
   color: var(--footer-link-color);
   text-decoration: none;
 }
-.footer-address-link {
-  margin: 9px 0;
-}
+
 .footer-address-link-u {
   text-decoration: underline;
-  margin: 9px 0;
 }
 
 .footer-address-link:hover,
