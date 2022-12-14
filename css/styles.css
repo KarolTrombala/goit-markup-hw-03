@@ -144,7 +144,7 @@ body {
   margin: 30px 500px 200px;
 }
 
-/* Nasze atuty, Czym się zajmujemy i  Nasz zespół - flex */
+/* Nasze atuty */
 
 .list {
   list-style-type: none;
@@ -152,22 +152,18 @@ body {
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  font-size: 0;
 }
-
-/* Nasze atuty*/
 
 .trumps {
   padding-bottom: 0;
 }
 
 .trumps-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   margin-right: 30px;
 }
-
+.trumps-box:last-child {
+  margin:0;
+}
 .trumps-title {
   font-weight: 700;
   font-size: 14px;
@@ -192,6 +188,15 @@ body {
 
 /* Czym się zajmujemy  i nagłówek z Nasz zespół */
 
+.works-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
 .works-title,
 .team-title {
   font-weight: 700;
@@ -207,6 +212,17 @@ body {
 }
 
 /* Nasz zespół */
+
+
+.team-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+
+}
 
 .team {
   background: var(--team-color);
