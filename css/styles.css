@@ -100,10 +100,6 @@ body {
   color: var(--higlight-color);
 }
 
-/* .nav-address-phone {
-  display:flex;
-} */
-
 .header-address {
   margin-right: 50px;
 }
@@ -161,6 +157,17 @@ body {
 
 /* Nasze atuty*/
 
+.trumps {
+  padding-bottom: 0;
+}
+
+.trumps-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30px;
+} 
+
 .trumps-title {
   font-weight: 700;
   font-size: 14px;
@@ -169,7 +176,6 @@ body {
   text-transform: uppercase;
   color: var(--main-color);
 
-  width: 270px;
   margin: 0;
   margin-bottom: 10px;
 }
@@ -181,7 +187,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--support-color);
 
-  width: 270px;
   margin: 0;
 }
 
@@ -195,7 +200,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
-
+}
+.team-title {
   margin: 0;
   margin-bottom: 50px;
 }
@@ -209,8 +215,6 @@ body {
 .team-card {
   background: var(--white-color);
 
-  width: 270px;
-  height: 368px;
   margin: 0;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -229,8 +233,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
 
-  width: 72px;
-  height: 19px;
   margin: 30px 99px 10px;
 }
 
@@ -243,7 +245,7 @@ body {
   color: var(--support-color);
 
   margin: 0;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 /* Portfolio filters */
@@ -252,7 +254,6 @@ body {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  width: 572px;
   padding: 0;
   margin: 0 303px 50px 295px;
 }
@@ -270,7 +271,6 @@ body {
   border-radius: 4px;
   border: none;
 
-  height: 38px;
   padding: 6px 22px;
   margin-right: 8px;
 }
@@ -302,8 +302,6 @@ body {
   background: var(--white-color);
   border: 1px solid var(--projects-color);
   margin: 0;
-  width: 370px;
-  height: 404px;
 }
 
 .project-card-title {
@@ -314,8 +312,6 @@ body {
   letter-spacing: 0.06em;
   color: var(--main-color);
 
-  width: 322px;
-  height: 36px;
   margin: 20px 24px 4px;
 }
 
@@ -327,8 +323,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--support-color);
 
-  width: 322px;
-  height: 30px;
   margin: 0 24px 20px;
 }
 
@@ -352,8 +346,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--white-color);
 
-  width: 145px;
-  margin: 60px 1025px 20px 0;
+  padding: 60px 1025px 0 0;
 }
 
 .footer-address {
@@ -366,17 +359,11 @@ body {
 
   display: flex;
   flex-direction: column;
-  width: 246px;
-  margin: 0 924px 60px 0;
+  padding: 20px 924px 60px 0;
 }
 
 .footer-address p {
-  width: 246px;
   margin: 0;
-}
-
-.footer-address a {
-  margin-top: 9px;
 }
 
 .footer-address-link,
@@ -385,9 +372,12 @@ body {
   color: var(--footer-link-color);
   text-decoration: none;
 }
-
+.footer-address-link {
+  margin: 9px 0;
+}
 .footer-address-link-u {
   text-decoration: underline;
+  margin: 9px 0;
 }
 
 .footer-address-link:hover,
