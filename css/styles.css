@@ -35,12 +35,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-} 
+}
 
 .nav-box-menu {
   display: flex;
   align-items: center;
-} 
+}
 
 .header-logo,
 .logo-web {
@@ -166,7 +166,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-right: 30px;
-} 
+}
 
 .trumps-title {
   font-weight: 700;
